@@ -1,0 +1,10 @@
+c:\users\neeraj\documents\visual studio 2012\Projects\UberSkills\UberSkills\bin\UberSkills.dll
+c:\users\neeraj\documents\visual studio 2012\Projects\UberSkills\UberSkills\bin\UberSkills.pdb
+c:\users\neeraj\documents\visual studio 2012\Projects\UberSkills\UberSkills\obj\Debug\UberSkills.dll
+c:\users\neeraj\documents\visual studio 2012\Projects\UberSkills\UberSkills\obj\Debug\UberSkills.pdb
+C:\Users\Neeraj\Documents\Visual Studio 2012\Projects\UberSkills\UberSkills\obj\Debug\UberSkills.csprojResolveAssemblyReference.cache
+D:\uberskills project backup\UberSkills-Final\UberSkills\bin\UberSkills.dll
+D:\uberskills project backup\UberSkills-Final\UberSkills\bin\UberSkills.pdb
+D:\uberskills project backup\UberSkills-Final\UberSkills\obj\Debug\UberSkills.csprojResolveAssemblyReference.cache
+D:\uberskills project backup\UberSkills-Final\UberSkills\obj\Debug\UberSkills.dll
+D:\uberskills project backup\UberSkills-Final\UberSkills\obj\Debug\UberSkills.pdb

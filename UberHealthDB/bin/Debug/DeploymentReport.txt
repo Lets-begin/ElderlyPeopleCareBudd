@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[answer] (Table)
+       [dbo].[Member] (Table)
+       [dbo].[Patient] (Table)
+       [dbo].[request] (Table)
+
+** Supporting actions
+
+A project which specifies SQL Server 2012 as the target platform may experience compatibility issues with SQL Server 2008.
+

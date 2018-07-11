@@ -1,0 +1,10 @@
+C:\Users\Neeraj\Documents\Visual Studio 2012\Projects\UberSkills\UberHealthDB\bin\Debug\UberHealthDB.dacpac
+C:\Users\Neeraj\Documents\Visual Studio 2012\Projects\UberSkills\UberHealthDB\bin\Debug\UberHealthDB.dll
+C:\Users\Neeraj\Documents\Visual Studio 2012\Projects\UberSkills\UberHealthDB\bin\Debug\UberHealthDB.pdb
+C:\Users\Neeraj\Documents\Visual Studio 2012\Projects\UberSkills\UberHealthDB\obj\Debug\UberHealthDB.dll
+C:\Users\Neeraj\Documents\Visual Studio 2012\Projects\UberSkills\UberHealthDB\obj\Debug\UberHealthDB.pdb
+D:\uberskills project backup\UberSkills-Final\UberHealthDB\bin\Debug\UberHealthDB.dacpac
+D:\uberskills project backup\UberSkills-Final\UberHealthDB\bin\Debug\UberHealthDB.dll
+D:\uberskills project backup\UberSkills-Final\UberHealthDB\bin\Debug\UberHealthDB.pdb
+D:\uberskills project backup\UberSkills-Final\UberHealthDB\obj\Debug\UberHealthDB.dll
+D:\uberskills project backup\UberSkills-Final\UberHealthDB\obj\Debug\UberHealthDB.pdb

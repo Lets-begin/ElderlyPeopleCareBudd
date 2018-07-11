@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Statictheme.master.cs" Inherits="UberSkills.Statictheme" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="BootStrap/Bootstrap.css" rel="stylesheet" />
+
+<script src="BootStrap/Jquery.js"></script>
+    <script src="BootStrap/Bootstrap.js"></script>
+<script src="Quickblox/main1.js"></script>
+<script src="Quickblox/config.js"></script>
+<script src="Quickblox/quickblox.js"></script>
+<link href="BootStrap/Uberskills_custom.css" rel="stylesheet" />
+
+<div class="main container">
+    <div class="col-md-12">
+        <div class="jumbotron">
+            <title>UberHealth</title>
+            <h1>UberHealth</h1>
+            <h6>Bcoz we Care for ur loved ones</h6>
+            <asp:contentplaceholder id="head" runat="server">
+        </asp:contentplaceholder>
+        </div>
+    </div>
+
+    <div id="loginForm" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Loading......</h3>
+          </div>
+          <div class="modal-body">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="main container">
+    <div class="col-md-6">
+        <br />
+        <br />
+
+        <br />
+        <h1>Be a Part of <b><font color="red">UberHealth</b> </font>and feel <i>HomeLike</i> with our <b>carebuddies</b></h1>
+    </div>
+    <div class="col-md-6" style="background-color: #eee;">
+        <body>
+
+            <form id="form1" runat="server">
+                <div>
+                    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </form>
+        </body>
+    </div>
+
+</div>
+</div>
+</html>

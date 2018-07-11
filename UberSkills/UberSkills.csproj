@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EA855600-859E-4F5C-B5C2-D2C7FB8215BE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UberSkills</RootNamespace>
+    <AssemblyName>UberSkills</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Bootstrap\Bootstrap.css" />
+    <Content Include="Bootstrap\Bootstrap.js" />
+    <Content Include="Bootstrap\Jquery.js" />
+    <Content Include="Bootstrap\Uberskills_custom.css" />
+    <Content Include="CreateAccount.aspx" />
+    <Content Include="DetailRequest.aspx" />
+    <Content Include="ForgotPassword.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="LogIn.aspx" />
+    <Content Include="Other-People-Need-Carebuddy.aspx" />
+    <Content Include="PreferenceSettings.aspx" />
+    <Content Include="Quickblox\config.js" />
+    <Content Include="Quickblox\main1.js" />
+    <Content Include="Quickblox\js\modules\qbAuth.js" />
+    <Content Include="Quickblox\js\modules\qbChat.js" />
+    <Content Include="Quickblox\js\modules\qbContent.js" />
+    <Content Include="Quickblox\js\modules\qbData.js" />
+    <Content Include="Quickblox\js\modules\qbLocation.js" />
+    <Content Include="Quickblox\js\modules\qbMessages.js" />
+    <Content Include="Quickblox\js\modules\qbUsers.js" />
+    <Content Include="Quickblox\js\modules\qbWebRTC.js" />
+    <Content Include="Quickblox\js\qbConfig.js" />
+    <Content Include="Quickblox\js\qbMain.js" />
+    <Content Include="Quickblox\js\qbProxy.js" />
+    <Content Include="Quickblox\js\qbStrophe.js" />
+    <Content Include="Quickblox\js\qbUtils.js" />
+    <Content Include="Quickblox\lib\download\download.js" />
+    <Content Include="Quickblox\lib\download\download.min.js" />
+    <Content Include="Quickblox\lib\handlebars.js" />
+    <Content Include="Quickblox\lib\handlebars\handlebars.amd.js" />
+    <Content Include="Quickblox\lib\handlebars\handlebars.amd.min.js" />
+    <Content Include="Quickblox\lib\handlebars\handlebars.js" />
+    <Content Include="Quickblox\lib\handlebars\handlebars.min.js" />
+    <Content Include="Quickblox\lib\handlebars\handlebars.runtime.amd.js" />
+    <Content Include="Quickblox\lib\handlebars\handlebars.runtime.amd.min.js" />
+    <Content Include="Quickblox\lib\handlebars\handlebars.runtime.js" />
+    <Content Include="Quickblox\lib\handlebars\handlebars.runtime.min.js" />
+    <Content Include="Quickblox\lib\jasmine-1.3.1\jasmine-html.js" />
+    <Content Include="Quickblox\lib\jasmine-1.3.1\jasmine.css" />
+    <Content Include="Quickblox\lib\jasmine-1.3.1\jasmine.js" />
+    <Content Include="Quickblox\lib\jquery\dist\jquery.js" />
+    <Content Include="Quickblox\lib\jquery\dist\jquery.min.js" />
+    <Content Include="Quickblox\lib\jquery\MIT-LICENSE.txt" />
+    <Content Include="Quickblox\lib\jquery\src\ajax.js" />
+    <Content Include="Quickblox\lib\jquery\src\ajax\jsonp.js" />
+    <Content Include="Quickblox\lib\jquery\src\ajax\load.js" />
+    <Content Include="Quickblox\lib\jquery\src\ajax\parseJSON.js" />
+    <Content Include="Quickblox\lib\jquery\src\ajax\parseXML.js" />
+    <Content Include="Quickblox\lib\jquery\src\ajax\script.js" />
+    <Content Include="Quickblox\lib\jquery\src\ajax\var\nonce.js" />
+    <Content Include="Quickblox\lib\jquery\src\ajax\var\rquery.js" />
+    <Content Include="Quickblox\lib\jquery\src\ajax\xhr.js" />
+    <Content Include="Quickblox\lib\jquery\src\attributes.js" />
+    <Content Include="Quickblox\lib\jquery\src\attributes\attr.js" />
+    <Content Include="Quickblox\lib\jquery\src\attributes\classes.js" />
+    <Content Include="Quickblox\lib\jquery\src\attributes\prop.js" />
+    <Content Include="Quickblox\lib\jquery\src\attributes\support.js" />
+    <Content Include="Quickblox\lib\jquery\src\attributes\val.js" />
+    <Content Include="Quickblox\lib\jquery\src\callbacks.js" />
+    <Content Include="Quickblox\lib\jquery\src\core.js" />
+    <Content Include="Quickblox\lib\jquery\src\core\access.js" />
+    <Content Include="Quickblox\lib\jquery\src\core\init.js" />
+    <Content Include="Quickblox\lib\jquery\src\core\parseHTML.js" />
+    <Content Include="Quickblox\lib\jquery\src\core\ready.js" />
+    <Content Include="Quickblox\lib\jquery\src\core\var\rsingleTag.js" />
+    <Content Include="Quickblox\lib\jquery\src\css.js" />
+    <Content Include="Quickblox\lib\jquery\src\css\addGetHookIf.js" />
+    <Content Include="Quickblox\lib\jquery\src\css\curCSS.js" />
+    <Content Include="Quickblox\lib\jquery\src\css\defaultDisplay.js" />
+    <Content Include="Quickblox\lib\jquery\src\css\hiddenVisibleSelectors.js" />
+    <Content Include="Quickblox\lib\jquery\src\css\support.js" />
+    <Content Include="Quickblox\lib\jquery\src\css\swap.js" />
+    <Content Include="Quickblox\lib\jquery\src\css\var\cssExpand.js" />
+    <Content Include="Quickblox\lib\jquery\src\css\var\getStyles.js" />
+    <Content Include="Quickblox\lib\jquery\src\css\var\isHidden.js" />
+    <Content Include="Quickblox\lib\jquery\src\css\var\rmargin.js" />
+    <Content Include="Quickblox\lib\jquery\src\css\var\rnumnonpx.js" />
+    <Content Include="Quickblox\lib\jquery\src\data.js" />
+    <Content Include="Quickblox\lib\jquery\src\data\accepts.js" />
+    <Content Include="Quickblox\lib\jquery\src\data\Data.js" />
+    <Content Include="Quickblox\lib\jquery\src\data\var\data_priv.js" />
+    <Content Include="Quickblox\lib\jquery\src\data\var\data_user.js" />
+    <Content Include="Quickblox\lib\jquery\src\deferred.js" />
+    <Content Include="Quickblox\lib\jquery\src\deprecated.js" />
+    <Content Include="Quickblox\lib\jquery\src\dimensions.js" />
+    <Content Include="Quickblox\lib\jquery\src\effects.js" />
+    <Content Include="Quickblox\lib\jquery\src\effects\animatedSelector.js" />
+    <Content Include="Quickblox\lib\jquery\src\effects\Tween.js" />
+    <Content Include="Quickblox\lib\jquery\src\event.js" />
+    <Content Include="Quickblox\lib\jquery\src\event\ajax.js" />
+    <Content Include="Quickblox\lib\jquery\src\event\alias.js" />
+    <Content Include="Quickblox\lib\jquery\src\event\support.js" />
+    <Content Include="Quickblox\lib\jquery\src\exports\amd.js" />
+    <Content Include="Quickblox\lib\jquery\src\exports\global.js" />
+    <Content Include="Quickblox\lib\jquery\src\intro.js" />
+    <Content Include="Quickblox\lib\jquery\src\jquery.js" />
+    <Content Include="Quickblox\lib\jquery\src\manipulation.js" />
+    <Content Include="Quickblox\lib\jquery\src\manipulation\support.js" />
+    <Content Include="Quickblox\lib\jquery\src\manipulation\var\rcheckableType.js" />
+    <Content Include="Quickblox\lib\jquery\src\manipulation\_evalUrl.js" />
+    <Content Include="Quickblox\lib\jquery\src\offset.js" />
+    <Content Include="Quickblox\lib\jquery\src\outro.js" />
+    <Content Include="Quickblox\lib\jquery\src\queue.js" />
+    <Content Include="Quickblox\lib\jquery\src\queue\delay.js" />
+    <Content Include="Quickblox\lib\jquery\src\selector-native.js" />
+    <Content Include="Quickblox\lib\jquery\src\selector-sizzle.js" />
+    <Content Include="Quickblox\lib\jquery\src\selector.js" />
+    <Content Include="Quickblox\lib\jquery\src\serialize.js" />
+    <Content Include="Quickblox\lib\jquery\src\sizzle\dist\sizzle.js" />
+    <Content Include="Quickblox\lib\jquery\src\sizzle\dist\sizzle.min.js" />
+    <Content Include="Quickblox\lib\jquery\src\traversing.js" />
+    <Content Include="Quickblox\lib\jquery\src\traversing\findFilter.js" />
+    <Content Include="Quickblox\lib\jquery\src\traversing\var\rneedsContext.js" />
+    <Content Include="Quickblox\lib\jquery\src\var\arr.js" />
+    <Content Include="Quickblox\lib\jquery\src\var\class2type.js" />
+    <Content Include="Quickblox\lib\jquery\src\var\concat.js" />
+    <Content Include="Quickblox\lib\jquery\src\var\hasOwn.js" />
+    <Content Include="Quickblox\lib\jquery\src\var\indexOf.js" />
+    <Content Include="Quickblox\lib\jquery\src\var\pnum.js" />
+    <Content Include="Quickblox\lib\jquery\src\var\push.js" />
+    <Content Include="Quickblox\lib\jquery\src\var\rnotwhite.js" />
+    <Content Include="Quickblox\lib\jquery\src\var\slice.js" />
+    <Content Include="Quickblox\lib\jquery\src\var\strundefined.js" />
+    <Content Include="Quickblox\lib\jquery\src\var\support.js" />
+    <Content Include="Quickblox\lib\jquery\src\var\toString.js" />
+    <Content Include="Quickblox\lib\jquery\src\wrap.js" />
+    <Content Include="Quickblox\lib\strophe\strophe.js" />
+    <Content Include="Quickblox\lib\strophe\strophe.min.js" />
+    <Content Include="Quickblox\main.js" />
+    <Content Include="Quickblox\plugins\chat\js\config.js" />
+    <Content Include="Quickblox\plugins\chat\js\qbChat.js" />
+    <Content Include="Quickblox\plugins\chat\js\qbChatHelpers.js" />
+    <Content Include="Quickblox\plugins\chat\libs\strophe.js" />
+    <Content Include="Quickblox\plugins\chat\libs\strophe.muc.js" />
+    <Content Include="Quickblox\plugins\chat\quickblox.chat.js" />
+    <Content Include="Quickblox\plugins\chat\quickblox.chat.min.js" />
+    <Content Include="Quickblox\quickblox.js" />
+    <Content Include="Quickblox\quickblox.min.js" />
+    <Content Include="Quickblox\spec\config.js" />
+    <Content Include="Quickblox\spec\defaults.js" />
+    <Content Include="Quickblox\spec\logo.png" />
+    <Content Include="Quickblox\spec\QB-ChatSpec.js" />
+    <Content Include="Quickblox\spec\QB-ContentSpec.js" />
+    <Content Include="Quickblox\spec\QB-CoreSpec.js" />
+    <Content Include="Quickblox\spec\QB-DataSpec.js" />
+    <Content Include="Quickblox\spec\QB-LocationSpec.js" />
+    <Content Include="Quickblox\spec\QB-MessagesSpec.js" />
+    <Content Include="Quickblox\spec\QB-UsersSpec.js" />
+    <Content Include="Quickblox\spec\SpecRunner.html" />
+    <Content Include="SendRequest.aspx" />
+    <Content Include="SentRequestPage.aspx" />
+    <Content Include="UpdateAccount.aspx" />
+    <Content Include="UserArea.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\common.cs" />
+    <Compile Include="CreateAccount.aspx.cs">
+      <DependentUpon>CreateAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateAccount.aspx.designer.cs">
+      <DependentUpon>CreateAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetailRequest.aspx.cs">
+      <DependentUpon>DetailRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetailRequest.aspx.designer.cs">
+      <DependentUpon>DetailRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.aspx.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn.aspx.designer.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Other-People-Need-Carebuddy.aspx.cs">
+      <DependentUpon>Other-People-Need-Carebuddy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Other-People-Need-Carebuddy.aspx.designer.cs">
+      <DependentUpon>Other-People-Need-Carebuddy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PreferenceSettings.aspx.cs">
+      <DependentUpon>PreferenceSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PreferenceSettings.aspx.designer.cs">
+      <DependentUpon>PreferenceSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SendRequest.aspx.cs">
+      <DependentUpon>SendRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SendRequest.aspx.designer.cs">
+      <DependentUpon>SendRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SentRequestPage.aspx.cs">
+      <DependentUpon>SentRequestPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SentRequestPage.aspx.designer.cs">
+      <DependentUpon>SentRequestPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Statictheme.Master.cs">
+      <DependentUpon>Statictheme.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Statictheme.Master.designer.cs">
+      <DependentUpon>Statictheme.Master</DependentUpon>
+    </Compile>
+    <Compile Include="theme.Master.cs">
+      <DependentUpon>theme.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="theme.Master.designer.cs">
+      <DependentUpon>theme.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateAccount.aspx.cs">
+      <DependentUpon>UpdateAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateAccount.aspx.designer.cs">
+      <DependentUpon>UpdateAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserArea.aspx.cs">
+      <DependentUpon>UserArea.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserArea.aspx.designer.cs">
+      <DependentUpon>UserArea.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="theme.Master" />
+    <Content Include="Statictheme.Master" />
+    <Content Include="Quickblox\lib\handlebars\.bower.json" />
+    <Content Include="Quickblox\lib\handlebars\.gitignore" />
+    <Content Include="Quickblox\lib\handlebars\bower.json" />
+    <Content Include="Quickblox\lib\handlebars\component.json" />
+    <Content Include="Quickblox\lib\handlebars\composer.json" />
+    <Content Include="Quickblox\lib\handlebars\handlebars-source.gemspec" />
+    <Content Include="Quickblox\lib\handlebars\handlebars.js.nuspec" />
+    <Content Include="Quickblox\lib\handlebars\lib\handlebars\source.rb" />
+    <Content Include="Quickblox\lib\handlebars\README.md" />
+    <Content Include="Quickblox\lib\jasmine-1.3.1\MIT.LICENSE" />
+    <Content Include="Quickblox\lib\jquery\.bower.json" />
+    <Content Include="Quickblox\lib\jquery\bower.json" />
+    <Content Include="Quickblox\lib\jquery\dist\jquery.min.map" />
+    <Content Include="Quickblox\lib\jquery\src\sizzle\dist\sizzle.min.map" />
+    <Content Include="Quickblox\package.json" />
+    <Content Include="Quickblox\plugins\chat\package.json" />
+    <Content Include="Quickblox\README.md" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dp\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:6242/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
